@@ -1,0 +1,17 @@
+@mixin banner($align) {
+	.wrapper {
+		font-size: $bannerHeading;
+		display: flex;
+		flex-direction: column;
+		text-align: $align;
+		color: $offWhite;
+		text-transform: uppercase;
+	}
+	.title {
+		margin: 20px 0;
+	}
+
+	.sub-title {
+		font-weight: bold;
+	}
+}
